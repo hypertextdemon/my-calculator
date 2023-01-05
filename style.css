@@ -1,0 +1,85 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section .container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section .mode {
+  width: 30%;
+  height: 5vh;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+section .mode img {
+  width: 50px;
+  height: 50px;
+}
+
+section .area {
+  height: 35vh;
+  width: 100%;
+}
+section .area input {
+  margin-top: 50%;
+  font-size: 40px;
+  background-color: transparent;
+  color: black;
+  text-align: right;
+  height: 10vh;
+  width: 90%;
+  border: none;
+  outline: none;
+}
+
+section .input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 5px;
+  width: 100%;
+  height: 50vh;
+  padding: 10px 0px 17px 0px;
+}
+
+section .input input {
+  background-color: rgb(240, 240, 240);
+  width: 23.5%;
+  height: 9.75vh;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+}
+
+section .input .green {
+  color: rgb(15, 250, 15);
+}
+
+section .input .red {
+  color: rgb(225, 25, 25);
+}
+
+section .input img {
+  width: 23.5%;
+  height: 9.75vh;
+}
